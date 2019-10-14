@@ -1,0 +1,24 @@
+.dropdown{
+    display: table;/*plays key role on centring*/
+    margin:0 auto;/*allows auto for left and right margin hence centering*/
+    position: relative;
+}
+
+.choices {
+    margin-left: 20px;/*adds space at the start to idicate level*/
+    display: none;/*hide the choises by default*/
+    flex-flow: row;
+}
+
+.related {
+    margin-left: 20px;/*adds space at the start to idicate level*/
+    display: none;/*hide the choises by default*/
+}
+
+input, label, p {
+    float: left; /*set the elements to the left*/  
+}
+
+input, p {
+    clear: both; /*force it to the next line*/   
+}

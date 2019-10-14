@@ -1,0 +1,21 @@
+Big –oh notation for Time Complexity
+To get big –oh notation we have check worst case scenario in each method then choose the worst for overall solution.
+	Functions with O (1):
+		Node (char value)
+		isMatching(char char_to_check)
+	Functions with O (n):
+		print ()
+		deleteMoreThanTwoSameNode(char root)
+		getNodesValues()
+		isMatching(char char_to_check) 
+	Functions with O (n2):
+		deleteAllMMoreThanTwoSame(char root) //nested loops since another function was called with a loop.
+The worst case scenario for the entire solution is O (n2).
+Space Complexity
+	static int same_node_count = 0; holds single int -> O(1)
+	static List<char> chars = new List<char>(); holds size x character-> O(n)
+	public char value; holds single character -> O(1)
+	public Node next; holds total space other declared variables -> O(1)+ O(n)+O(1)
+Total space taken
+S(n) = O(1)+ O(n)+ O(1)+ O(1)+ O(n)+O(1)
+Space complexity simplified: O (n)

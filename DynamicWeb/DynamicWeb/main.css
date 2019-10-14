@@ -1,0 +1,49 @@
+﻿*{
+	margin:0;
+	padding:0;
+}
+
+html{
+    background-color: #ECEFF1;
+}
+
+body{
+    width: 100%;
+    font:normal 16px 'Open Sans', Arial, Helvetica, sans-serif;
+}
+
+header{
+    box-sizing: border-box;
+    text-align: left;
+    width: 100%;
+    padding: 25px 40px;
+    background-color: #287090;
+    overflow: hidden;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+    margin-bottom:100px;
+}
+
+
+header h1{
+    float: left;
+    font: normal 24px/1.5 'Open Sans', sans-serif;
+    color: #fff;
+    margin: 0;
+}
+
+
+
+@media (max-width: 1000px) {/*when width is greater or equal 1000px*/
+
+
+    header{
+        margin-bottom:20px;
+    }
+    
+    header h1{
+        float: none;
+    }
+
+
+
+}

@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="style.css">
+    <title>The Restaurant</title>
+</head>
+<body>
+    <header>
+        <h1>The Restaurant</h1>
+    </header>
+    <div>
+
+        <div class="dropdown">
+            <h2>Restaurant Menu</h2>
+            <div class="name">
+                <!--Salad section-->
+                <input type="checkbox" id="checkbox-toggle-salad" class="dropdown-chk">
+                <label for="checkbox-toggle-salad">Salad</label>
+                <div class="choices"><!--Choises section-->
+                    <div class="name">
+                        <input type="checkbox" id="checkbox-toggle-santa-fe" class="choice-chk">
+                        <label for="checkbox-toggle-santa-fe">Santa-fe</label>
+                        <input type="checkbox" id="checkbox-toggle-greek" class="choice-chk">
+                        <label for="checkbox-toggle-greek">Greek</label>
+                        <input type="checkbox" id="checkbox-toggle-asian" class="choice-chk">
+                        <label for="checkbox-toggle-asian">Asian</label>
+                    </div>
+                </div>
+                <div class="related"><!--Related section-->
+                    <p>You might also want:</p>
+                    <div class="name">
+                        <input type="checkbox" id="checkbox-toggle-dressing" class="dropdown-chk">
+                        <label for="checkbox-toggle-dressing">Dressing</label>
+                        <div class="choices"><!--Choises section-->
+                            <div class="name">
+                                <input type="checkbox" id="checkbox-toggle-italian" class="choice-chk">
+                                <label for="checkbox-toggle-italian">Italian</label>
+                                <input type="checkbox" id="checkbox-toggle-blue-cheese" class="choice-chk">
+                                <label for="checkbox-toggle-blue-cheese">Blue Cheese</label>
+                                <input type="checkbox" id="checkbox-toggle-ranch" class="choice-chk">
+                                <label for="checkbox-toggle-ranch">Ranch</label>
+                            </div>
+                        </div>
+                        <input type="checkbox" id="checkbox-toggle-bread" class="dropdown-chk">
+                        <label for="checkbox-toggle-bread">Bread</label>
+                        <div class="choices"><!--Choises section-->
+                            <div class="name">
+                                <input type="checkbox" id="checkbox-toggle-bread-italian" class="choice-chk">
+                                <label for="checkbox-toggle-bread-italian">Italian</label>
+                                <input type="checkbox" id="checkbox-toggle-flat" class="choice-chk">
+                                <label for="checkbox-toggle-flat">Flat</label>
+                                <input type="checkbox" id="checkbox-toggle-sourdough" class="choice-chk">
+                                <label for="checkbox-toggle-sourdough">Sourdough</label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--Entree section-->
+                <input type="checkbox" id="checkbox-toggle-entree" class="dropdown-chk">
+                <label for="checkbox-toggle-entree">Entree</label>
+                <div class="choices">
+                    <div class="name">
+                        <input type="checkbox" id="checkbox-toggle-steak" class="choice-chk">
+                        <label for="checkbox-toggle-steak">Steak</label>
+                        <input type="checkbox" id="checkbox-toggle-salmon" class="choice-chk">
+                        <label for="checkbox-toggle-salmon">Salmon</label>
+                        <input type="checkbox" id="checkbox-toggle-rice" class="choice-chk">
+                        <label for="checkbox-toggle-rice">Rice</label>
+                    </div>
+                </div>
+                <div class="related"><!--Related section-->
+                    <p>You might also want:</p>
+                </div>
+                <!--Soup section-->
+                <input type="checkbox" id="checkbox-toggle-soup" class="dropdown-chk">
+                <label for="checkbox-toggle-soup">Soup</label>
+                <div class="choices"><!--Choises section-->
+                    <div class="name">
+                        <input type="checkbox" id="checkbox-toggle-minestrone" class="choice-chk">
+                        <label for="checkbox-toggle-minestrone">Minestrone</label>
+                        <input type="checkbox" id="checkbox-toggle-hot-and-sour" class="choice-chk">
+                        <label for="checkbox-toggle-hot-and-sour">Hot and Sour</label>
+                        <input type="checkbox" id="checkbox-toggle-Miso" class="choice-chk">
+                        <label for="checkbox-toggle-Miso">Miso</label>
+                    </div>
+                </div>
+                <div class="related"><!--Related section-->
+                    <p>You might also want:</p>
+                    <div class="name">
+                        <input type="checkbox" id="checkbox-toggle-soup-bread" class="dropdown-chk">
+                        <label for="checkbox-toggle-soup-bread">Bread</label>
+                        <div class="choices"><!--Choises section-->
+                            <div class="name">
+                                <input type="checkbox" id="checkbox-toggle-breadsticks" class="choice-chk">
+                                <label for="checkbox-toggle-breadsticks">Breadsticks</label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+
+
+
+        </div>
+
+    </div>
+    <!--load javascript at botom so as to capture all html tags-->
+    <script type="text/javascript" src="dropdownscript.js"></script><!--load dropdown script-->
+    <script type="text/javascript" src="relatedmenuscript.js"></script><!--load related script-->
+</body>
+</html>
